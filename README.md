@@ -24,6 +24,7 @@ The SD showed that:
 - There was an inverse trend where average fare per ride decreased in order of rural, suburban, and urban city types. 
 
 Table 1. Summary Dataframe
+
 ![summary_dataframe.png](Analysis/summary_dataframe.png)
 
 The MG showed that: 
