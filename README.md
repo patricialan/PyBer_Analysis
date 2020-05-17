@@ -32,6 +32,7 @@ The MG showed that:
 - Total fares per week were stratified amongst city types in descending order of urban (about $2,000-$2,500), suburban (about $900-$1,400), and rural (less than $500) cities. 
 
 Figure 1
+
 ![Fig8.png](Analysis/Fig8.png)
 
 ### Summary
@@ -54,14 +55,27 @@ Analysis of ride-sharing data revealed clear stratification in total rides, tota
 
 ### Overcoming Challenges & Technical Analyses Used
 #### Programming
-- Internet searches of official documentation, Stack Overflow, and forums were performed to find examples of what code was used and how it was applied, followed by trial and error in Jupyter Notebook.
+- Internet searches of official documentation, Stack Overflow, and forums were performed to find examples of what code was used and how it was applied, followed by trial and error in Jupyter Notebook. Pandas API reference for [pandas.DataFrame.resample](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html) showed how to used '3T' to split a series into 3 minute bins (Figure 2). For this analysis, I trialed '7D' with unexpected success (Figure 3).  
+
+Figure 2. Pandas API Reference
+
+![resample_pandas.png](Analysis/resample_pandas.png)
+
+Figure 3. Trialed Code
+
+![resample_mine.png](Analysis/resample_mine.png)
 
 #### Data analysis
 - Review of the .csv files clarified that the dataframe created from city_data.csv, and not the merged dataframe, should be used to calculate total drivers per city type.
 
 #### Graphing, etc
-- Internet search of Stack Overflow provided code to prevent labels from cutting off when saving a graph.
-- “FiveThirtyEight” graph style code was incorporated through trial and error in Jupyter Notebook.
+- Internet search of [Stack Overflow](https://stackoverflow.com/questions/45239261/matplotlib-savefig-text-chopped-off) provided code to prevent labels from cutting off when saving a graph (Figure 4).
+
+Figure 4. Code preventing cut off labels
+
+![bbox_inches.png](Analysis/bbox_inches.png)
+
+- ["FiveThirtyEight"](https://matplotlib.org/3.1.1/gallery/style_sheets/fivethirtyeight.html) graph style code was incorporated through trial and error in Jupyter Notebook.
 
 ## Recommendations and Next Steps
 - Further analyses are recommended to determine if there are accessibility and affordability issues in rural and suburban cities for PyBer ride-share. 
