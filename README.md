@@ -7,7 +7,7 @@ Data from PyBer, a ride-sharing app, was analyzed for trends. Findings will help
 
 ### Resources
 - Data sources: city_data.csv and ride_data.csv
-- Software: Jupyter Notebook 6.0.3, conda 4.8.2, Python 3.8.2, pandas 1.0.3, and matplotlib 3.1.3
+- Software: Jupyter Notebook 6.0.3, conda 4.8.2, Python 3.8.2, pandas 1.0.3, Matplotlib 3.1.3, and NumPy 1.18.1
 
 ### Technical Analysis
 Ride-sharing data from <[city_data.csv](Resources/city_data.csv)> and <[ride_data.csv](Resources/ride_data.csv)> were used. Data spanned the months of January 2019 to May 2019 and provided information on each ride in that period (fare, city, number of drivers in that city and city type: urban, suburban, or rural). See <[PyBer_Challenge.ipynb](PyBer_Challenge.ipynb)> for the analyses. 
