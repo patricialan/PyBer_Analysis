@@ -55,7 +55,7 @@ Analysis of ride-sharing data revealed clear stratification in total rides, tota
 
 ### Overcoming Challenges & Technical Analyses Used
 #### Programming
-- Internet searches of official documentation, Stack Overflow, and forums were performed to find examples of what code was used and how it was applied, followed by trial and error in Jupyter Notebook. Pandas API reference for [pandas.DataFrame.resample](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html) showed how to used '3T' to split a series into 3 minute bins (Figure 2). For this analysis, I trialed '7D' with unexpected success (Figure 3).  
+- Internet searches of official documentation, Stack Overflow, and forums were performed to find examples of what code was used and how it was applied, followed by trial and error in Jupyter Notebook. Pandas API reference for [pandas.DataFrame.resample](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html) showed how to used '3T' to split a series into 3 minute bins (Figure 2). For this analysis, I trialed '8D' with unexpected success (Figure 3).  
 
 Figure 2. Pandas API Reference
 
